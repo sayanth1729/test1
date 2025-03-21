@@ -1,0 +1,231 @@
+/* GLOBAL STYLES */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f7ff; /* Light blue background */
+  color: #333;
+}
+
+/* LOGIN PAGE */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-header {
+  margin-bottom: 20px;
+}
+
+.user-icon {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.login-header h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Input Box Styles */
+.input-box {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.input-box:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Sign In Button */
+.sign-in-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.sign-in-button:hover {
+  background-color: #0056b3;
+}
+
+/* HOME PAGE */
+.home-page {
+  background: #e6f7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* DASHBOARD CONTAINER */
+.dashboard-container {
+  background: white;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden; /* Prevents content overflow */
+}
+
+/* HEADER STYLING */
+.dashboard-header h1 {
+  font-size: 22px;
+  color: #007bff;
+  text-align: center;
+}
+
+.dashboard-header p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* LOGOUT BUTTON */
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+/* ACTION BUTTONS */
+.action-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+/* BUTTON CONTAINER */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* INPUT BOX DESIGN */
+.input-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* RESULTS TABLE */
+.results-container {
+  max-height: 250px; /* Limit height */
+  overflow-y: auto; /* Add vertical scroll if content exceeds height */
+  margin-top: 20px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.results-table th,
+.results-table td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 14px;
+}
+
+.results-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.results-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.results-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* SCROLLBAR */
+.results-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.results-container::-webkit-scrollbar-thumb {
+  background: #007bff;
+  border-radius: 5px;
+}
+
+.results-container::-webkit-scrollbar-thumb:hover {
+  background: #0056b3;
+}
+
+/* ERROR & SUCCESS MESSAGES */
+.error {
+  color: #f44336;
+  background: #fdecea;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.success {
+  color: #4caf50;
+  background: #e8f5e9;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
