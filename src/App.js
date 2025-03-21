@@ -32,6 +32,7 @@ const App = () => {
         setScanResults([]); 
         setErrorMessage("An error occurred during the scan.");
         console.error("Error during scan:", error);
+        console.log("Hello");
       });
   };
 
